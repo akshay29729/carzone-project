@@ -27,7 +27,7 @@ SECRET_KEY = 'p@5l2k8c3fwc#+%n0p$#)w#bttq&ac$g$#&naapf2x)&dlk6o5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['floating-badlands-41165.herokuapp.com']
 
 
 # Application definition
