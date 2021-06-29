@@ -1,0 +1,34 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$S5b1u2f8E8Oj$R+L6BtlBFbXmsdCwAJ0qq7+9LLNTOGgXJhsMBX4Zm3o=",
+        "last_login": "2021-06-28T04:38:26.274Z",
+        "is_superuser": false,
+        "username": "user2",
+        "first_name": "user2",
+        "last_name": "shinde",
+        "email": "user2@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-06-28T04:31:37.435Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mstd5apa96q8i1dc201eywsfg9844s1y",
+    "fields": {
+        "session_data": "NThmMzZjNmZmOTEwZjViODIyNTUxMDU2MTlkYmU0MzRlNTRmYzE2MDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3YTcyMGE2M2RmZTc2YjdiMjAwZDUwZWRlOWE1NjAwOGIxMGE3NTczIn0=",
+        "expire_date": "2021-07-12T04:38:26.274Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+}
+]
