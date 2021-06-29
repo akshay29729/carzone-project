@@ -27,7 +27,8 @@ SECRET_KEY = 'p@5l2k8c3fwc#+%n0p$#)w#bttq&ac$g$#&naapf2x)&dlk6o5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['floating-badlands-41165.herokuapp.com']
+ALLOWED_HOSTS = ['floating-badlands-41165.herokuapp.com',
+                 'carzoneapp.co', 'www.carzoneapp.co']
 
 
 # Application definition
@@ -162,4 +163,4 @@ EMAIL_HOST_PASSWORD = '1234abcd'
 EMAIL_USE_TLS = True
 
 # WHitenoise
-STATICFILES_STORAGE = 'whitenoise.storage.CompressesManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
